@@ -15,6 +15,7 @@ jobs:
         run: |
           rm -rf public/*
           cp -r private/* public/
+          ls public/
 
       - name: Commit and push updated public folder
         run: |
